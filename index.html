@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hidden Costs of AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="logo">Hidden Costs of AI</div>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#problem">Problem</a>
+        <a href="#resources">Resources</a>
+        <a href="#action">Action</a>
+        <a href="#pledge">Pledge</a>
+        <a href="#sources">Sources</a>
+        <a href="#creator">Creator</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Community Service Project</p>
+        <h1>Hidden Costs of AI</h1>
+        <p class="hero-subtitle">
+          How AI data centers and large-scale computing can increase demand for water,
+          electricity, land, and natural resources.
+        </p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#problem">Learn the Impact</a>
+          <a class="button secondary" href="#pledge">Take Action</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="problem" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">The Issue</p>
+        <h2>AI is not just digital. It depends on physical infrastructure.</h2>
+      </div>
+      <p class="wide-text">
+        Artificial intelligence may seem invisible because people use it through apps and websites.
+        However, AI systems require large amounts of computing power. This computing power is supported
+        by data centers, which need electricity, cooling systems, land, backup power, and hardware materials.
+      </p>
+      <p class="note">
+        This website avoids exact statistics until verified sources are added. Any numerical claim should be
+        supported with a proper citation.
+      </p>
+    </section>
+
+    <section id="resources" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Resource Pressure</p>
+        <h2>Four natural resource impacts</h2>
+      </div>
+
+      <div class="cards-grid">
+        <article class="impact-card">
+          <div class="icon">💧</div>
+          <h3>Water</h3>
+          <p>
+            Data centers can use water for cooling systems, especially where servers generate large amounts
+            of heat. In water-stressed areas, this can add pressure to local supplies.
+          </p>
+        </article>
+
+        <article class="impact-card">
+          <div class="icon">⚡</div>
+          <h3>Electricity</h3>
+          <p>
+            AI computing relies on powerful servers and cooling systems. More AI use can increase electricity
+            demand and may place pressure on energy grids.
+          </p>
+        </article>
+
+        <article class="impact-card">
+          <div class="icon">🌍</div>
+          <h3>Land</h3>
+          <p>
+            Large data center campuses need physical land, access roads, power infrastructure, and sometimes
+            nearby water systems, affecting local planning.
+          </p>
+        </article>
+
+        <article class="impact-card">
+          <div class="icon">🔩</div>
+          <h3>Minerals & Hardware</h3>
+          <p>
+            AI infrastructure depends on chips, servers, batteries, cooling equipment, and cables. These require
+            mining, manufacturing, transport, and disposal.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">How It Connects</p>
+        <h2>From AI use to resource pressure</h2>
+      </div>
+
+      <div class="flow">
+        <div class="flow-step">AI tools used more</div>
+        <span>→</span>
+        <div class="flow-step">More computation needed</div>
+        <span>→</span>
+        <div class="flow-step">More data centers built</div>
+        <span>→</span>
+        <div class="flow-step">Higher resource demand</div>
+        <span>→</span>
+        <div class="flow-step">Pressure on communities</div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Local Impact</p>
+        <h2>Why this matters to communities</h2>
+      </div>
+      <div class="two-column">
+        <div>
+          <h3>Resource use is local</h3>
+          <p>
+            Electricity grids, water supplies, and land use decisions affect real neighborhoods. If computing
+            growth is not managed responsibly, communities may face higher infrastructure pressure.
+          </p>
+        </div>
+        <div>
+          <h3>Awareness changes behavior</h3>
+          <p>
+            The goal is not to reject AI. The goal is to understand that AI has physical costs and to encourage
+            responsible, efficient, and better-informed technology use.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="action" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Community Service</p>
+        <h2>Action plan</h2>
+      </div>
+
+      <div class="action-list">
+        <div class="action-item">
+          <strong>1. Awareness campaign</strong>
+          <p>Create posters, slides, and short explanations for students and community members.</p>
+        </div>
+        <div class="action-item">
+          <strong>2. Responsible AI pledge</strong>
+          <p>Encourage people to use AI when useful, not mindlessly for every tiny task.</p>
+        </div>
+        <div class="action-item">
+          <strong>3. Research display</strong>
+          <p>Present verified sources on data center electricity, water use, and sustainability efforts.</p>
+        </div>
+        <div class="action-item">
+          <strong>4. Practical habits</strong>
+          <p>Promote energy-conscious tech habits such as reducing unnecessary cloud use and supporting greener computing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pledge" class="section pledge-section">
+      <div class="section-heading">
+        <p class="eyebrow">Take Action</p>
+        <h2>Responsible AI Pledge</h2>
+      </div>
+      <p class="wide-text">
+        I pledge to use AI responsibly, avoid unnecessary AI use, learn about the environmental impact of technology,
+        and support more sustainable computing practices.
+      </p>
+
+      <form id="pledgeForm" class="pledge-form">
+        <label>
+          Name
+          <input type="text" id="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          One action I will take
+          <textarea id="actionText" placeholder="Example: I will avoid using AI for unnecessary tasks." required></textarea>
+        </label>
+
+        <button type="submit" class="button primary">Submit Pledge</button>
+      </form>
+
+      <p id="thankYouMessage" class="thank-you" hidden>
+        Thank you for taking the pledge. Small choices matter when enough people stop pretending the internet is weightless.
+      </p>
+    </section>
+
+    <section id="sources" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Sources</p>
+        <h2>Add verified research here</h2>
+      </div>
+
+      <div class="source-grid">
+        <div class="source-card">
+          <h3>Electricity Use</h3>
+          <p>[Add statistic or report about data center electricity demand with source.]</p>
+        </div>
+        <div class="source-card">
+          <h3>Water Cooling</h3>
+          <p>[Add article/report about water use in data center cooling systems.]</p>
+        </div>
+        <div class="source-card">
+          <h3>Sustainable Computing</h3>
+          <p>[Add source about renewable energy, efficient chips, or improved cooling methods.]</p>
+        </div>
+        <div class="source-card">
+          <h3>Local Impact</h3>
+          <p>[Add local or regional source about water, energy, or land pressure.]</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="creator" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About the Creator</p>
+        <h2>Meet Ridhaan Shah</h2>
+      </div>
+
+      <div class="creator-card">
+        <div class="creator-photo-wrap">
+          <img src="ridhaan-shah.jpg" alt="Ridhaan Shah" class="creator-photo" />
+        </div>
+        <div class="creator-content">
+          <p class="creator-meta">AIS | 12th Grade</p>
+          <h3>Researcher, Website Creator, and Project Lead</h3>
+          <p>
+            This website was created by <strong>Ridhaan Shah</strong> as part of a community service project
+            focused on the environmental impact of AI infrastructure.
+          </p>
+          <p>
+            Ridhaan researched how AI data centers and large-scale computing can increase demand for
+            water, electricity, land, and hardware resources, then built this website to make the issue
+            easier for others to understand.
+          </p>
+          <p class="creator-mission">
+            <strong>Mission:</strong> Raising awareness about how AI infrastructure affects natural resources.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Community Service Project | Hidden Costs of AI | Created by Ridhaan Shah</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
